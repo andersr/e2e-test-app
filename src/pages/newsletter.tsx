@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import { useState } from "react";
 import { ServerResponse } from "./api/newsletter";
 
-// one more meaningless code change
+// now with admin 
 
 const Newsletter: NextPage = () => {
   const [emailInput, setEmailInput] = useState("");
