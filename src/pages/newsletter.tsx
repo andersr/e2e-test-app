@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import { useState } from "react";
 import { ServerResponse } from "./api/newsletter";
 
-// another meaningless code change
+// one more meaningless code change
 
 const Newsletter: NextPage = () => {
   const [emailInput, setEmailInput] = useState("");
