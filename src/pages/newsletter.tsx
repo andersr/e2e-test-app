@@ -60,7 +60,7 @@ const Newsletter: NextPage = () => {
             <div data-test="successMessage">{confirmMessage}</div>
           )}
           {errorMessage && (
-            <div data-test="errorMessage" style={{ color: 0 }}>
+            <div data-test="errorMessage" style={{ color: "red" }}>
               Error: {errorMessage}
             </div>
           )}

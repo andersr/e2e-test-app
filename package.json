@@ -5,10 +5,12 @@
   "scripts": {
     "dev:next": "next dev",
     "cy:e2e": "cypress open --e2e --browser chrome --config baseUrl=http://localhost:3000",
+    "cy:run": "cypress run --e2e --browser chrome --config baseUrl=http://localhost:8080",
     "dev": "start-test dev:next 3000 cy:e2e",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "prestart": "next build",
+    "start": "next start -p 8080",
+    "lint": "next lint",
+    "e2e": "start-test start 8080 cy:run"
   },
   "dependencies": {
     "email-validator": "^2.0.4",
