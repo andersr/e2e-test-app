@@ -81,7 +81,7 @@ const Newsletter: NextPage = () => {
             }}
             placeholder="your@email.com"
           />
-          <input
+          {/* <input
             type={"submit"}
             data-test="formSubmit"
             style={{
@@ -92,7 +92,7 @@ const Newsletter: NextPage = () => {
               borderColor: "blue",
               borderRadius: "5px",
             }}
-          />
+          /> */}
         </form>
       </main>
     </div>
